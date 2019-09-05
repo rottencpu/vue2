@@ -1,0 +1,80 @@
+.audit-title{
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  .start{
+    color: red;
+    margin-right: 5px;
+  }
+  span{
+    color: #999;
+  }
+}
+.audit-bg{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  .audits-bg{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    .audits{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      .name{
+        margin: 3px;
+      }
+      .phone{
+        margin: 3px;
+      }
+      .audits-x{
+        position: absolute;
+        top:0;
+        right: 22px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.start-bg{
+  padding-left: 20px;
+}
+.mini-avatar{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #409EFF;
+  margin: 5px;
+}
+.mini-avatar-add{
+  color: #ccc;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mini-avatar-add:hover{
+  color: #999;
+  border: 1px solid #999;
+  transition: 0.3s;
+}
+.mini-avatar-add:active{
+  color: #ccc;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+.audit-next{
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 5px;
+  color: #999;
+}
