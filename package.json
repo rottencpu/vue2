@@ -63,6 +63,7 @@
     "showdown": "1.8.6",
     "simplemde": "1.11.2",
     "sortablejs": "1.7.0",
+    "three": "^0.108.0",
     "v-distpicker": "^1.2.1",
     "vue": "2.5.17",
     "vue-axios": "^2.1.4",
